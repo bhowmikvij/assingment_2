@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./style.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+</head>
+<body>
+
+  <!-- Header and Navigation -->
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Hello everyone I am a B.Tech CSE student at K.R.Mangalam University.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="./image/portfolio.jpg.jpeg" alt="Profile picture of [Bhowmik Vij]" width="200">
+      <p>I am Bhowmik Vij. I am a first year B.Tech CSE student. I like to play chess,swimming and listening to music.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Personal Website:</strong> A responsive portfolio website using HTML and CSS.</li>
+        <li><strong>To-Do App:</strong> A JavaScript-based task management application.</li>
+        <li><strong>Chess Game:</strong> A simple game built with Python for learning algorithms.</li>
+      </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <table border="1" cellpadding="8">
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Learning</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <br>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <br>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+        </div>
+        <br>
+        <button type="submit">Send</button>
+      </form>+
+    </section>
+  </main>
+
+  <!-- Footer -->d
+  <footer>
+    <p>&copy; 2025 My Portfolio | All Rights Reserved</p>
+  </footer>
+</body>
+</html>

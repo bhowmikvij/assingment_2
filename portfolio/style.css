@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* -------- Base Styles -------- */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f8ff; /* light blue-gray */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* -------- Header & Navigation -------- */
+header {
+  background-color: #003366; /* navy blue */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: sticky; /* stays on top */
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #00bfff; /* sky blue hover */
+  color: #002244;
+}
+
+/* -------- Section Layout -------- */
+section {
+  background-color: #fff;
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 85%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headings */
+section h2 {
+  color: #003366;
+  border-bottom: 2px solid #00bfff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* -------- Hero Section -------- */
+#hero {
+  background: linear-gradient(135deg, #00bfff, #003366);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#hero h2 {
+  border: none;
+  color: white;
+}
+
+/* -------- About Section -------- */
+#about img {
+  display: block;
+  margin: 15px auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 3px solid #00bfff;
+}
+
+#about p {
+  text-align: center;
+}
+
+/* -------- Projects Section -------- */
+#projects ul {
+  list-style: disc inside;
+  padding-left: 20px;
+}
+
+#projects li {
+  margin: 8px 0;
+}
+
+/* -------- Skills Table -------- */
+#skills table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#skills th, #skills td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+#skills th {
+  background-color: #003366;
+  color: white;
+}
+
+#skills tr:nth-child(even) {
+  background-color: #f2f8ff;
+}
+
+/* -------- Contact Section -------- */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: 600;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  background-color: #00bfff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0099cc;
+}
+
+/* -------- Footer -------- */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+/* -------- Back to Top Button -------- */
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 14px;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+}
+
+#backToTop:hover {
+  background-color: #00bfff;
+}
+
+/* -------- Box Model Demonstration -------- */
+#about, #projects, #skills, #contact {
+  margin-bottom: 25px;  /* spacing between sections */
+  padding: 20px;        /* inside spacing */
+  border: 2px solid #e6f2ff; /* light border for clarity */
+  border-radius: 10px;
+}
+
+/* -------- Visual Separator -------- */
+hr {
+  border: none;
+  height: 2px;
+  background-color: #00bfff;
+  margin: 25px 0;
+}
